@@ -4,6 +4,7 @@
 
 ##How to use
 ```php
+require 'Crawler.php';
 $url = 'htttp://www.example.com';
 $links = Crawler::url($url)->getUrl();
 
