@@ -7,6 +7,6 @@
 $url = 'htttp://www.example.com';
 $links = Crawler::url($url)->getUrl();
 
-var_dump($links)
+var_dump($links);
 
 ```
