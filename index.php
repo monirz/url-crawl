@@ -2,7 +2,7 @@
 
 require 'Crawler.php';
 
-$url = "http://www.masnun.com";
+$url = "http://www.example.com";
 $urls = Crawler::url($url)->getUrl();
 
 //var_dump($urls);
